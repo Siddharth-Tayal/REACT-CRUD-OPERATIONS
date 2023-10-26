@@ -11,6 +11,7 @@ import EditPage from "./components/EditPage";
 import { useDispatch } from "react-redux";
 import { fetchUsers } from "./redux/actions/userActions";
 import { useEffect } from "react";
+import NopAGE from "./components/NopAGE.jsx";
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/fetchUsers' element={<FetchUsers />} />
         <Route exact path='/user/:id' element={<UserDetailPage />} />
         <Route exact path='/edit/:id' element={<EditPage />} />
+        <Route path='*' element={<NopAGE />} />
       </Routes>
       <Toaster />
       <Footer />
@@ -33,3 +35,4 @@ function App() {
 }
 
 export default App;
+
