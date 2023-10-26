@@ -1,0 +1,31 @@
+@import "./Nav_Home.css";
+@import "./Create.css";
+@import "./UserDetailPage.css";
+@import "./Footer.css";
+@import "./FetchUser.css";
+@import "./Loader.css";
+@import "./Error.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.5s;
+  border: none;
+  outline: none;
+}
+.radio {
+  cursor: pointer;
+  color: orange;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

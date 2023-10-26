@@ -1,0 +1,19 @@
+.loaderPage {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  height: 250px;
+  width: 250px;
+  border-bottom: 5px solid rgb(0, 136, 255);
+  border-radius: 50%;
+  animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

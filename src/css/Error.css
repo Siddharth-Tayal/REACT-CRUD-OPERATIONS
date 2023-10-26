@@ -1,0 +1,16 @@
+.errorPage {
+  height: 80vh;
+  padding: 3vmax 10vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vmax;
+  font: 600 3vmax sans-serif;
+  color: orangered;
+  text-align: center;
+}
+.errorPage svg {
+  font-size: 6vmax;
+  color: red;
+}
